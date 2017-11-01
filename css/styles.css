@@ -1,0 +1,77 @@
+
+body {
+  padding: 20px 0;
+  font: 300 14px "Lato", sans-serif;
+  color: #666756;
+  background: #fff;
+}
+
+hr {
+  border-top: 4px solid #bbb;
+}
+
+.container {
+	background-color: black;
+}
+
+h1{
+	text-align: center;
+}
+
+.aboutme{
+	text-decoration-color: black; 
+	font-family: Times New Roman;
+}
+.project-featured {
+  color: #bbb;
+}
+
+.project {
+  text-align: center;
+}
+
+.project-title {
+  color: #666756;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.project-link {
+  font-size: 1em;
+  color: #666756;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.love {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  font-size: 1em;
+  color: #e74c3c;
+  transform: scale(0.9);
+  animation: love 0.5s infinite linear alternate-reverse;
+}
+
+@keyframes love {
+  to {
+    transform: scale(1.2);
+  }
+}
+
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
