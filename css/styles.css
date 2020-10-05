@@ -11,7 +11,13 @@ hr {
 }
 
 .container {
-	background-color: #bc986a;
+  background-color: #bc986a;
+  border-radius: 6px;
+}
+
+#my-intro {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 h1{
